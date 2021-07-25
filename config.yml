@@ -1,0 +1,101 @@
+baseURL: "https://misly.dev"
+title: Misly
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production 
+    title: Misly
+    description: "My website "
+    keywords: [Blog, Portfolio]
+    author: Misly
+    DateFormat: "January 2, 2006"
+    defaultTheme: dark # dark, light
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+
+
+    label:
+        text: "Misly"
+        icon: "https://6n.wtf/m8LS2-Yf9"
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Misly
+        subtitle: "Just a human"
+        imageUrl: "https://6n.wtf/m8LS2-Yf9"
+        imageWidth: 120
+        imageHeight: 120
+
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/"
+        - name: stackoverflow
+          url: "https://stackoverflow.com"
+        - name: github
+          url: "https://github.com/"
+
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content", "tags"]
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 10
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 20
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 30
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 40
+     
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
