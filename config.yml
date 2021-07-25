@@ -51,12 +51,10 @@ params:
 
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/misly16"
+        - name: gitlab
+          url: "https://gitlab.com/misly16"
 
 
     cover:
