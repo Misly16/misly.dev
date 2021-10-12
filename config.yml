@@ -44,8 +44,8 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: Misly
-        subtitle: "Just a human"
-        imageUrl: "https://6n.wtf/m8LS2-Yf9"
+        subtitle: "Hello"
+        imageUrl: "https://6n.wtf/YMV-ffmze"
         imageWidth: 120
         imageHeight: 120
 
