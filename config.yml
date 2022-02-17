@@ -55,6 +55,8 @@ params:
           url: "https://github.com/misly16"
         - name: gitlab
           url: "https://gitlab.com/misly"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/misly"
 
 
     cover:
