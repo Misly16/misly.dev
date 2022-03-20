@@ -37,7 +37,7 @@ params:
 
     label:
         text: "Misly"
-        icon: "https://6n.wtf/YMV-ffmze"
+        icon: "https://6n.wtf/7aZoo42r5"
         iconHeight: 35
 
     # profile-mode
@@ -45,7 +45,7 @@ params:
         enabled: true # needs to be explicitly set
         title: Misly
         subtitle: "Hello"
-        imageUrl: "https://6n.wtf/YMV-ffmze"
+        imageUrl: "https://6n.wtf/7aZoo42r5"
         imageWidth: 120
         imageHeight: 120
 
