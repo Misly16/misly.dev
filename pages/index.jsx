@@ -42,7 +42,7 @@ export default function Home() {
 						      animate={{opacity: 1}}
                   exit={{opacity: 0, transition: { duration: 0.15, delay: 0.2 }}}
                   >
-                    {getUKTime()}
+                    {getUKTime()} 
                   </motion.p>
               )}
               <p className={`text-lg pl-4 ${hoveredTimezone ? 'hidden' : 'visible'}`}>England, UK</p>
