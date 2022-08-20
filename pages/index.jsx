@@ -21,7 +21,7 @@ export default function Home() {
         <Nav />
       </div>
       <div className='mx-auto max-w-4xl py-20 px-4'>
-        <h1 className='font-bold text-6xl'>Hi, I'm Misly</h1>
+        <h1 className='font-bold text-6xl'>Hi, I&apos;m Misly</h1>
         <div className='flex pt-3'>
           <div className='flex space-x-4 text-2xl bg-neutral-900 w-fit py-2 px-4 rounded-lg items-center divide-x'>
             <div className='flex space-x-4 items-center'>
@@ -42,7 +42,7 @@ export default function Home() {
 						      animate={{opacity: 1}}
                   exit={{opacity: 0, transition: { duration: 0.15, delay: 0.2 }}}
                   >
-                    {getUKTime()} 
+                    {getUKTime()}
                   </motion.p>
               )}
               <p className={`text-lg pl-4 ${hoveredTimezone ? 'hidden' : 'visible'}`}>England, UK</p>
