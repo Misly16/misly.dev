@@ -13,7 +13,7 @@ export default function Nav() {
     <Link
       key={label}
       href={href}
-      className="scoreboard relative rounded-lg px-5 py-2 text-base text-white transition-colors delay-150 hover:text-white hover:delay-[0ms]"
+      className="hidden sm:flex scoreboard relative rounded-lg px-5 py-2 text-base text-white transition-colors delay-150 hover:text-white hover:delay-[0ms]"
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(null)}
     >

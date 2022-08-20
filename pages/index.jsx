@@ -1,4 +1,5 @@
 import Nav from '@/components/nav';
+import MobileNav from '@/components/mobileNav';
 import Link from 'next/link';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion'
@@ -17,11 +18,12 @@ export default function Home() {
   }
   return (
     <div className='mx-auto max-w-4xl py-10 px-5'>
-      <div className=' h-10 flex align-middle'>
-        <Nav />
+      <div className='sm:h-10 flex align-middle'>        
+        <Nav/>
       </div>
+      <MobileNav/>
       <div className='mx-auto max-w-4xl py-20 px-4'>
-        <h1 className='font-bold text-6xl'>Hi, I&apos;m Misly</h1>
+        <h1 className='font-bold text-4xl sm:text-6xl'>Hi, I&apos;m Misly</h1>
         <div className='flex pt-3'>
           <div className='flex space-x-4 text-2xl bg-neutral-900 w-fit py-2 px-4 rounded-lg items-center divide-x'>
             <div className='flex space-x-4 items-center'>
