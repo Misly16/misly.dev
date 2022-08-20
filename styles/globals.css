@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'scoreboard';
+  src: url('/fonts/scoreboard.ttf'),
+    url('/fonts/scoreboard.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: theme('colors.white');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.scoreboard {
+  font-family: 'scoreboard';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
