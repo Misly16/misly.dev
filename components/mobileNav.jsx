@@ -12,7 +12,7 @@ export default function MobileNav() {
         <>
     <div>
         { expandedNav && (
-            <div className='z-10 overflow-hidden inset-0 fixed backdrop-blur bg-black/80 py-24 px-10 space-y-7 text-6xl'>
+            <div className='sm:hidden z-10 overflow-hidden inset-0 fixed backdrop-blur bg-black/80 py-24 px-10 space-y-7 text-6xl'>
                
                {navigation.map((item, index) =>
                 <motion.p   
