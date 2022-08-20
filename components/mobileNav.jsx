@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Link from "next/link"
 import Hamburger from "hamburger-react"
 import { motion } from "framer-motion"
 export default function MobileNav() {
@@ -13,7 +14,6 @@ export default function MobileNav() {
     <div>
         { expandedNav && (
             <div className='sm:hidden z-10 overflow-hidden inset-0 fixed backdrop-blur bg-black/80 py-24 px-10 space-y-7 text-6xl'>
-               
                {navigation.map((item, index) =>
                 <motion.p   
                     key={index}
@@ -22,7 +22,9 @@ export default function MobileNav() {
                     animate={{ opacity: 1}}
                     transition={{ duration:index + .25}}
                 >
-                    {item.label}
+                    <Link key={index} href={item.href}>
+                        {item.label}
+                    </Link>
                 </motion.p>
             )}
                 </div>

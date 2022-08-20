@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <MobileNav/>
       <div className='mx-auto max-w-4xl py-20 px-4'>
-        <h1 className='font-bold text-4xl sm:text-6xl'>Hi, I&apos;m Misly</h1>
+        <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl'>Hi, I&apos;m Misly</h1>
         <div className='flex pt-3'>
           <div className='flex space-x-4 text-2xl bg-neutral-900 w-fit py-2 px-4 rounded-lg items-center divide-x'>
             <div className='flex space-x-4 items-center'>
