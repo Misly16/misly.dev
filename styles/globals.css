@@ -1,3 +1,5 @@
+@import url("https://fonts.bunny.net/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,15 +13,10 @@
   font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 html,
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: Roboto, sans-serif;
   color: theme('colors.white');
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .scoreboard {
