@@ -4,28 +4,11 @@ import { motion } from 'framer-motion';
 import {
   SiTwitter,
   SiGithub,
-  SiNodedotjs,
-  SiGo,
-  SiPython,
-  SiReact,
-  SiGatsby,
-  SiTailwindcss,
-  SiWebpack,
-  SiNextdotjs,
-  SiPrisma,
-  SiMariadb,
-  SiPostgresql,
-  SiMysql,
-  SiGit,
-  SiMongodb,
-  SiRedis,
-  SiVisualstudiocode,
-  SiWebstorm,
-  SiFigma,
 } from 'react-icons/si';
 import { FaLocationArrow } from 'react-icons/fa';
 import MobileNav from '@/components/mobileNav';
 import Nav from '@/components/nav';
+import Technologies from '@/components/technologies';
 
 export default function Home() {
   const [hoveredTimezone, setHoveredTimezone] = useState(false);
@@ -91,64 +74,7 @@ export default function Home() {
         <div className="space-y-4">
           <h1 className="text-2xl sm:text-3xl font-medium">Technologies</h1>
           <p className="text-lg leading-6 tracking-wide text-gray-200 font-light">Over the years I&apos;ve used a variety of languages and tools for many different purposes, I enjoy writing software thats both efficient and easy to scale. Most of the code I have written is in Node.JS, GO and React.</p>
-          <div className="flex space-x-4 text-2xl bg-neutral-900 w-fit py-2 px-4 rounded-lg items-center divide-x">
-            <ul className="flex items-center w-full justify-evenly flex-wrap">
-              <li className="p-2">
-                <SiNodedotjs />
-              </li>
-              <li className="p-2">
-                <SiGo />
-              </li>
-              <li className="p-2">
-                <SiPython />
-              </li>
-              <li className="p-2">
-                <SiReact />
-              </li>
-              <li className="p-2">
-                <SiGatsby />
-              </li>
-              <li className="p-2">
-                <SiTailwindcss />
-              </li>
-              <li className="p-2">
-                <SiWebpack />
-              </li>
-              <li className="p-2">
-                <SiNextdotjs />
-              </li>
-              <li className="p-2">
-                <SiPrisma />
-              </li>
-              <li className="p-2">
-                <SiMariadb />
-              </li>
-              <li className="p-2">
-                <SiPostgresql />
-              </li>
-              <li className="p-2">
-                <SiMysql />
-              </li>
-              <li className="p-2">
-                <SiGit />
-              </li>
-              <li className="p-2">
-                <SiMongodb />
-              </li>
-              <li className="p-2">
-                <SiRedis />
-              </li>
-              <li className="p-2">
-                <SiVisualstudiocode />
-              </li>
-              <li className="p-2">
-                <SiWebstorm />
-              </li>
-              <li className="p-2">
-                <SiFigma />
-              </li>
-            </ul>
-          </div>
+          <Technologies />
         </div>
       </div>
     </div>
