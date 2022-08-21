@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'scoreboard';
+  font-family:'scoreboard';
   src: url('/fonts/scoreboard.woff2') format('woff2'),
     url('/fonts/scoreboard.woff2') format('woff');
   font-weight: normal;
