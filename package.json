@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@tippyjs/react": "^4.2.6",
     "framer-motion": "^7.2.0",
     "hamburger-react": "^2.5.0",
     "next": "12.2.5",
