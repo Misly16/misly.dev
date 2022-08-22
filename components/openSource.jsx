@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import Link from "next/link"
+import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import {ExternalLinkIcon} from '@heroicons/react/solid'
 export default function OpenSource() {
 const [repo, setRepo] = useState(null)
@@ -15,7 +15,7 @@ const [repo, setRepo] = useState(null)
             <h1 className='text-2xl sm:text-3xl font-medium'>Open Source</h1>
             {repo && repo.map((repo, index) => {
               return (
-                <div key={index} className="flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]">
+                <div key={index} className='flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]'>
                 <div className='divide-y w-full'>
                   <div className='flex'>
                     <div className='flex flex-col justify-center mb-4'>

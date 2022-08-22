@@ -24,11 +24,11 @@ export default function MobileNav() {
     <>
       <div>
         { expandedNav && (
-        <div className="sm:hidden z-10 overflow-hidden inset-0 fixed backdrop-blur bg-black/80 py-24 px-10 space-y-7 text-6xl">
+        <div className='sm:hidden z-10 overflow-hidden inset-0 fixed backdrop-blur bg-black/80 py-24 px-10 space-y-7 text-6xl'>
           {navigation.map((item, index) => (
             <motion.p
               key={index}
-              className="scoreboard"
+              className='scoreboard'
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: index + 0.25 }}
@@ -41,7 +41,7 @@ export default function MobileNav() {
         </div>
         )}
       </div>
-      <div className="flex sm:hidden px-3 sticky z-20">
+      <div className='flex sm:hidden px-3 sticky z-20'>
         <Hamburger toggled={expandedNav} toggle={setExpandedNav} />
       </div>
     </>

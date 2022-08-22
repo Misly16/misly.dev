@@ -1,5 +1,5 @@
-import Image from "next/future/image";
-import Link from "next/link";
+import Image from 'next/future/image';
+import Link from 'next/link';
 import {ExternalLinkIcon} from '@heroicons/react/solid'
 import pingstreakLogo from '@/public/images/pingstreak.png';
 import playcapLogo from '@/public/images/playcap.png';
@@ -8,7 +8,7 @@ export default function Companies() {
   return (
     <div className='flex flex-row flex-wrap w-full space-y-4'>
     <h1 className='text-2xl sm:text-3xl font-medium'>Companies</h1>
-    <div className="flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]">
+    <div className='flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]'>
       <div className='divide-y w-full'>
         <div className='flex'>
           <div className='w-16 h-16 rounded-md m-2 mb-4'>
@@ -32,7 +32,7 @@ export default function Companies() {
         </div>
       </div>
       </div>
-      <div className="flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]">
+      <div className='flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]'>
       <div className='divide-y w-full'>
         <div className='flex'>
           <div className='w-16 h-16 rounded-md m-2 mb-4'>
@@ -56,7 +56,7 @@ export default function Companies() {
         </div>
       </div>
       </div>
-      <div className="flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]">
+      <div className='flex text-2xl bg-neutral-900 p-4 rounded-lg w-full max-w-[750px]'>
       <div className='divide-y w-full'>
         <div className='flex'>
           <div className='w-16 h-16 rounded-md m-2 mb-4'>

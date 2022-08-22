@@ -13,15 +13,15 @@ export default function Nav() {
     <Link
       key={label}
       href={href}
-      className="hidden sm:flex scoreboard relative rounded-lg px-5 py-2 text-base text-white transition-colors delay-150 hover:text-white hover:delay-[0ms]"
+      className='hidden sm:flex scoreboard relative rounded-lg px-5 py-2 text-base text-white transition-colors delay-150 hover:text-white hover:delay-[0ms]'
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(null)}
     >
       <AnimatePresence>
         {hoveredIndex === index && (
           <motion.span
-            className="absolute inset-0 rounded-lg bg-neutral-900 text-white"
-            layoutId="hoverBackground"
+            className='absolute inset-0 rounded-lg bg-neutral-900 text-white'
+            layoutId='hoverBackground'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 0.15 } }}
             exit={{
@@ -31,7 +31,7 @@ export default function Nav() {
           />
         )}
       </AnimatePresence>
-      <span className="relative z-10">{label}</span>
+      <span className='relative z-10'>{label}</span>
     </Link>
   ))
 }
