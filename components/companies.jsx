@@ -1,5 +1,6 @@
 import Image from "next/future/image";
 import Link from "next/link";
+import {ExternalLinkIcon} from '@heroicons/react/solid'
 import pingstreakLogo from '@/public/images/pingstreak.png';
 import playcapLogo from '@/public/images/playcap.png';
 import topcordLogo from '@/public/images/topcord.png';
@@ -14,7 +15,12 @@ export default function Companies() {
           <Image alt='playcap' src={pingstreakLogo} layout='raw' quality={100} />
           </div>
           <div className='flex flex-col justify-center pl-2'>
+            <Link href='https://pingstreak.com' target='_blank'>
+            <div className='flex flex-row items-center space-x-1'>
             <p className='text-2xl font-medium'>PingStreak</p>
+            <ExternalLinkIcon className='h-6 w-6' />
+            </div>
+            </Link>
             <p className='text-lg font-light'>2022 - current</p>
           </div>
         </div>
@@ -33,7 +39,12 @@ export default function Companies() {
           <Image alt='playcap' src={playcapLogo} layout='raw' quality={100} />
           </div>
           <div className='flex flex-col justify-center pl-2'>
+          <Link href='https://playcap.app' target='_blank'>
+            <div className='flex flex-row items-center space-x-1'>
             <p className='text-2xl font-medium'>Playcap</p>
+            <ExternalLinkIcon className='h-6 w-6' />
+            </div>
+            </Link>
             <p className='text-lg font-light'>2021 - current</p>
           </div>
         </div>
@@ -52,7 +63,12 @@ export default function Companies() {
           <Image alt='playcap' src={topcordLogo} layout='raw' quality={100} />
           </div>
           <div className='flex flex-col justify-center pl-2'>
+          <Link href='https://topcord.xyz' target='_blank'>
+            <div className='flex flex-row items-center space-x-1'>
             <p className='text-2xl font-medium'>Topcord</p>
+            <ExternalLinkIcon className='h-6 w-6' />
+            </div>
+            </Link>
             <p className='text-lg font-light'>2020 - current</p>
           </div>
         </div>

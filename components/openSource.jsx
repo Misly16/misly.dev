@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import Link from "next/link"
+import {ExternalLinkIcon} from '@heroicons/react/solid'
 export default function OpenSource() {
 const [repo, setRepo] = useState(null)
  useEffect(() => {
@@ -17,7 +19,12 @@ const [repo, setRepo] = useState(null)
                 <div className='divide-y w-full'>
                   <div className='flex'>
                     <div className='flex flex-col justify-center mb-4'>
+                    <Link href={repo.link} target='_blank'>
+                    <div className='flex flex-row items-center space-x-1'>
                     <p className='text-2xl font-medium'>{repo.repo}</p>
+                    <ExternalLinkIcon className='h-6 w-6' />
+                    </div>
+                    </Link>
                     <div className='flex flex-row space-x-3'>
                       <p className='text-lg font-light'>⭐ {repo.stars}</p>
                       <p className='text-lg font-light'><span style={{color: `${repo.languageColor}`}}>⬤</span> {repo.language}</p>
