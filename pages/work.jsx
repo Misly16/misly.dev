@@ -2,7 +2,6 @@ import Nav from '@/components/nav';
 import MobileNav from '@/components/mobileNav';
 import Companies from '@/components/companies';
 import OpenSource from '@/components/openSource';
-import { useState } from 'react';
 export default function Work() {
   return (
     <div className='mx-auto max-w-4xl py-10 px-5'>
