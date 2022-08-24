@@ -1,0 +1,28 @@
+@import url("https://fonts.bunny.net/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:'scoreboard';
+  src: url('/fonts/scoreboard.woff2') format('woff2'),
+    url('/fonts/scoreboard.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: Roboto, sans-serif;
+  color: theme('colors.white');
+  box-sizing: border-box;
+}
+
+.scoreboard {
+  font-family: 'scoreboard';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
