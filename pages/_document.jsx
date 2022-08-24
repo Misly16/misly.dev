@@ -11,7 +11,14 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head />
+        <Head>
+          <meta charSet='utf-8' />
+					<link
+						rel='icon'
+						type='image/png'
+						href='https://avatars.githubusercontent.com/u/60405462?v=4'
+					/>
+        </Head>
         <body className='bg-black'>
           <Main />
           <NextScript />
