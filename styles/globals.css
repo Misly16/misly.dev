@@ -17,6 +17,7 @@ html,
 body {
   font-family: Roboto, sans-serif;
   color: theme('colors.white');
+  box-sizing: border-box;
 }
 
 .scoreboard {
