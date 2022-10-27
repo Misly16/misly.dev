@@ -21,7 +21,7 @@ export default function Companies() {
             <ExternalLinkIcon className='h-6 w-6' />
             </div>
             </Link>
-            <p className='text-lg font-light'>2022 - current</p>
+            <p className='text-lg font-light'>2022 - 2022</p>
           </div>
         </div>
         <div className='flex flex-col'>
@@ -45,7 +45,7 @@ export default function Companies() {
             <ExternalLinkIcon className='h-6 w-6' />
             </div>
             </Link>
-            <p className='text-lg font-light'>2021 - current</p>
+            <p className='text-lg font-light'>2021 - 2022</p>
           </div>
         </div>
         <div className='flex flex-col'>
