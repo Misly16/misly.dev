@@ -82,7 +82,7 @@ export default function ContactForm() {
                         <span>
                             <SiDiscord className='h-5 w-5' />
                         </span>
-                        <span className='text-sm'>Misly#8067<span className={`${statusMap[data?.discord_status]} select-none text-xs`}> ⬤</span></span>
+                        <span className='text-sm'>Misly<span className={`${statusMap[data?.discord_status]} select-none text-xs`}> ⬤</span></span>
                 </li>
             </ul>
         </div>
