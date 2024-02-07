@@ -4,7 +4,7 @@ import {ExternalLinkIcon} from '@heroicons/react/solid'
 export default function OpenSource() {
 const [repo, setRepo] = useState(null)
  useEffect(() => {
-    fetch('https://gh-pinned-repos.egoist.dev/?username=misly16')
+    fetch('https://gh-pinned-repos-tsj7ta5xfhep.deno.dev/?username=misly16')
      .then((res) => res.json())
      .then((data) => {
         setRepo(data)
